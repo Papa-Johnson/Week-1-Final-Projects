@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #f14981, #5eeee4);
+    margin-bottom: 40px;
+}
+
+.container{
+    width: 70vw;
+    height: 90vh;
+    padding-top: 20px;
+
+}
+
+h2{
+    text-align: center;
+    color: #0052eb;
+    font-family: 'Poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    font-size: 60px;
+    text-shadow: 
+        0 0 5px #00c3ff, 
+        0 0 10px #00c3ff, 
+        0 0 20px #00c3ff, 
+        0 0 30px #00eeff;
+}
+
+h1, a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 30px;
+    font-family: cursive;
+}
+.box{
+    background-color: #e6127c;
+    width: 50%;
+    height: 17%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.8s all ease-in-out;
+    box-shadow: 
+        0 4px 8px rgba(0, 0, 0, 0.2), 
+        0 6px 20px rgba(0, 0, 0, 0.19);
+}
+
+.box:hover{
+    transform: translateX(15px);
+}
